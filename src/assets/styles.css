@@ -1,0 +1,24 @@
+:root{
+  --color-text: #161616;
+  --color-bg: #dfdfdf;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100dvw;
+  max-width: 100%;
+  min-height: 100dvh;
+  color: var(--color-text);
+  background: var(--color-bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+}
+
